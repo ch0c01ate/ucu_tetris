@@ -4,10 +4,10 @@ document.addEventListener("keydown", event => {
       moveDown();
       break;
     case LEFT:
-      moveRight();
+      moveLeft();
       break;
     case RIGHT:
-      moveLeft();
+      moveRight();
       break;
     case PAUSE:
       pauseGame();
